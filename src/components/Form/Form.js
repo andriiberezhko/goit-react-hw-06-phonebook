@@ -7,7 +7,6 @@ export const Form = () => {
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
   const contacts = useSelector(state => state.contacts.items);
-  // console.log(contacts);
 
   const onChangeInputName = event => {
     setName(event.currentTarget.value);
